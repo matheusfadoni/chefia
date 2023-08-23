@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TitleMain"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:text="Connect to the Server"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/ipdoserver"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:digits="0123456789."
+        android:ems="10"
+        android:hint="ip do servidor"
+        android:inputType="number|numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/cbLembrarServidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lembrar Servidor" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="User"
+        android:inputType="text|textPersonName" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/cbLembrarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lembrar Usuário" />
+
+    <Button
+        android:id="@+id/ButtonMain"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Accessar" />
+
+</LinearLayout>
